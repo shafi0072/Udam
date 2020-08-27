@@ -1,0 +1,23 @@
+.Logo img{
+    width: 500px;
+}
+.Logo{
+    text-align: center;
+}
+.MenuBar{
+    background-color:lightblue;
+    line-height: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+.MenuBar a{
+    text-decoration: none;
+    color: rgb(36, 34, 34);
+    margin-right: 20px;
+    padding: 8px;
+    transition: all 1s;
+}
+.MenuBar a:hover{
+    background-color: white;
+    border-radius: 40px
+}

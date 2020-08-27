@@ -1,0 +1,31 @@
+.Imaginary{
+    width:200px
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    float: left;
+    margin: 20px;
+    padding:50px
+}
+.mainprops{
+    width:200px;
+    padding:50px;
+    border-radius: 10px;
+    box-shadow:  5px 5px 40px lightgray;
+}
+.EnrollBTn{
+    width: 200px;
+    height:50px;
+    background-color: #87ceeb;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    transition: all 1s;
+}
+.EnrollBTn:hover{
+    background-color: white; 
+    color: #87ceeb;
+    cursor: pointer;
+}
